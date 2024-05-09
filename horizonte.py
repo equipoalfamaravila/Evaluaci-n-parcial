@@ -1,6 +1,5 @@
 import os
 import datetime
-import unittest
 #EMPRESA HORIZONTE -- RESOLUCION EXAMEN PARCIAL
 
 class CalculadoraSueldo:
