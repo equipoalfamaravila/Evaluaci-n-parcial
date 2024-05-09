@@ -9,3 +9,7 @@ Objetivos del proyecto
 
 LISTA DE INTEGRANTES:
 Argandoña Montalvo Fabrizcio Galileo
+Romani Mora Danluis Enrique 
+Lechuga Miche Diego Ricardo
+Apaza Rojas Tania Isabel
+Espetia Mamani Jhon Cristian
