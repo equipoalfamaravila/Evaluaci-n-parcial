@@ -1,4 +1,6 @@
 import os
+import datetime
+import unittest
 #EMPRESA HORIZONTE -- RESOLUCION EXAMEN PARCIAL
 
 class CalculadoraSueldo:
@@ -18,7 +20,7 @@ class CalculadoraSueldo:
         pago_horas_extras = self.calcular_pago_horas_extras()
         movilidad = 1000
         bonificacion_suplementaria = 0.03 * self.sueldo_basico
-        bonificaciones = movilidad + bonificacion_suplementaria + pago_horas_extrasfab
+        bonificaciones = movilidad + bonificacion_suplementaria + pago_horas_extras
         return bonificaciones
 
     def calcular_descuentos(self):
@@ -55,6 +57,7 @@ class CalculadoraSueldo:
 
 datos = CalculadoraSueldo()
 datos.imprimir_boleta_pago()
+
 
 
 
