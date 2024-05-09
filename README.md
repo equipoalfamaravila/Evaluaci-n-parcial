@@ -8,8 +8,8 @@ Objetivos del proyecto
 -Crear la documentacion necesaria que lleve el registro de todo lo pactado en el documento.
 
 LISTA DE INTEGRANTES:
-Argandoña Montalvo Fabrizcio Galileo
-Romani Mora Danluis Enrique 
-Lechuga Miche Diego Ricardo
-Apaza Rojas Tania Isabel
-Espetia Mamani Jhon Cristian
+Argandoña Montalvo Fabrizcio Galileo,
+Romani Mora Danluis Enrique, 
+Lechuga Miche Diego Ricardo,
+Apaza Rojas Tania Isabel,
+Espetia Mamani Jhon Cristian.
