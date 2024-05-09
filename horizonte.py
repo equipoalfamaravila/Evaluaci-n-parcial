@@ -35,8 +35,12 @@ class CalculadoraSueldo:
         return sueldo_neto
 
     def imprimir_boleta_pago(self):
+        ahora = datetime.datetime.now()
+        Fecha = ahora.strftime("%d-%m-%Y %H:%M:%S")
         os.system('cls')
         sueldo_neto = self.calcular_sueldo_neto()
+        bonificaciones = self.calcular_bonificaciones()
+        descuentos = self.calcular_descuentos()
         print("----------BOLETA DE PAGO POR SERVICIOS----------")
         print("Fecha - Hora : ",Fecha)
         print("")
