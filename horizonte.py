@@ -38,14 +38,17 @@ class CalculadoraSueldo:
         os.system('cls')
         sueldo_neto = self.calcular_sueldo_neto()
         print("----------BOLETA DE PAGO POR SERVICIOS----------")
+        print("Fecha - Hora : ",Fecha)
+        print("")
         print("Boleta de pago para      ", self.nombre_trabajador)
         print("Sueldo básico:           ", self.sueldo_basico)
         print("Horas extras trabajadas: ", self.horas_extras)
         print("Días de falta:           ", self.dias_falta)
         print("Minutos de tardanza:     ", self.minutos_tardanza)
-        print("Sueldo neto a pagar:     ", sueldo_neto)
+        print("Bonificaciones:          ",bonificaciones)
+        print("Descuentos    :          ",descuentos)
+        print("Sueldo neto a pagar:     ",sueldo_neto)
 
-# Ejemplo de uso
 datos = CalculadoraSueldo()
 datos.imprimir_boleta_pago()
 
